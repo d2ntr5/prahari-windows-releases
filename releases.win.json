@@ -2,6 +2,28 @@
     "Assets":  [
                    {
                        "PackageId":  "Prahari",
+                       "Version":  "0.1.7",
+                       "Type":  "Delta",
+                       "FileName":  "Prahari-0.1.7-delta.nupkg",
+                       "SHA1":  "9F6A2FAC83117D0D73CBE56AB8D8315C3666698E",
+                       "SHA256":  "C3ABA12979E90B82C05D869F1A3A19D96946E13C351EF44B8846550462954568",
+                       "Size":  206637,
+                       "NotesMarkdown":  "- 글씨 크기가 4단계가 됐습니다: 작게 · 보통 · 크게 · 아주 크게(설정 › 일반 › 화면). 글씨와 함께 단추 · 여백 · 설정 창 · 팝업 크기도 같이 커집니다. Ctrl+= 크게 · Ctrl+- 작게 · Ctrl+0 보통. 전에 고른 크기는 가장 가까운 단계로 옮깁니다.\n- 화면 표준에 맞춰 글씨 크기를 자리별로 통일하고(가장 작은 글씨 11), 글꼴을 Segoe UI · 맑은 고딕으로 바꿨습니다.\n- 밝은 모드 색: 창 바탕은 시스템 창 색, 상자는 흰색 + 옅은 구분선, 고른 항목은 회색 홈 안 흰 알약으로 표시합니다.\n- 설정 › 일반의 「모양」을 「화면 모드」로 이름을 바꿨습니다.",
+                       "NotesHTML":  "\u003cul\u003e\n\u003cli\u003e글씨 크기가 4단계가 됐습니다: 작게 · 보통 · 크게 · 아주 크게(설정 › 일반 › 화면). 글씨와 함께 단추 · 여백 · 설정 창 · 팝업 크기도 같이 커집니다. Ctrl+= 크게 · Ctrl+- 작게 · Ctrl+0 보통. 전에 고른 크기는 가장 가까운 단계로 옮깁니다.\u003c/li\u003e\n\u003cli\u003e화면 표준에 맞춰 글씨 크기를 자리별로 통일하고(가장 작은 글씨 11), 글꼴을 Segoe UI · 맑은 고딕으로 바꿨습니다.\u003c/li\u003e\n\u003cli\u003e밝은 모드 색: 창 바탕은 시스템 창 색, 상자는 흰색 + 옅은 구분선, 고른 항목은 회색 홈 안 흰 알약으로 표시합니다.\u003c/li\u003e\n\u003cli\u003e설정 › 일반의 「모양」을 「화면 모드」로 이름을 바꿨습니다.\u003c/li\u003e\n\u003c/ul\u003e"
+                   },
+                   {
+                       "PackageId":  "Prahari",
+                       "Version":  "0.1.7",
+                       "Type":  "Full",
+                       "FileName":  "Prahari-0.1.7-full.nupkg",
+                       "SHA1":  "345B2A490D765CF19C0BA4A30673F6B2045DC439",
+                       "SHA256":  "3C26780EA929DF763DEB498E207BCFC7656D268AF40C5BC8377203A74F767D72",
+                       "Size":  83106805,
+                       "NotesMarkdown":  "- 글씨 크기가 4단계가 됐습니다: 작게 · 보통 · 크게 · 아주 크게(설정 › 일반 › 화면). 글씨와 함께 단추 · 여백 · 설정 창 · 팝업 크기도 같이 커집니다. Ctrl+= 크게 · Ctrl+- 작게 · Ctrl+0 보통. 전에 고른 크기는 가장 가까운 단계로 옮깁니다.\n- 화면 표준에 맞춰 글씨 크기를 자리별로 통일하고(가장 작은 글씨 11), 글꼴을 Segoe UI · 맑은 고딕으로 바꿨습니다.\n- 밝은 모드 색: 창 바탕은 시스템 창 색, 상자는 흰색 + 옅은 구분선, 고른 항목은 회색 홈 안 흰 알약으로 표시합니다.\n- 설정 › 일반의 「모양」을 「화면 모드」로 이름을 바꿨습니다.",
+                       "NotesHTML":  "\u003cul\u003e\n\u003cli\u003e글씨 크기가 4단계가 됐습니다: 작게 · 보통 · 크게 · 아주 크게(설정 › 일반 › 화면). 글씨와 함께 단추 · 여백 · 설정 창 · 팝업 크기도 같이 커집니다. Ctrl+= 크게 · Ctrl+- 작게 · Ctrl+0 보통. 전에 고른 크기는 가장 가까운 단계로 옮깁니다.\u003c/li\u003e\n\u003cli\u003e화면 표준에 맞춰 글씨 크기를 자리별로 통일하고(가장 작은 글씨 11), 글꼴을 Segoe UI · 맑은 고딕으로 바꿨습니다.\u003c/li\u003e\n\u003cli\u003e밝은 모드 색: 창 바탕은 시스템 창 색, 상자는 흰색 + 옅은 구분선, 고른 항목은 회색 홈 안 흰 알약으로 표시합니다.\u003c/li\u003e\n\u003cli\u003e설정 › 일반의 「모양」을 「화면 모드」로 이름을 바꿨습니다.\u003c/li\u003e\n\u003c/ul\u003e"
+                   },
+                   {
+                       "PackageId":  "Prahari",
                        "Version":  "0.1.6",
                        "Type":  "Delta",
                        "FileName":  "Prahari-0.1.6-delta.nupkg",
@@ -21,28 +43,6 @@
                        "Size":  83103920,
                        "NotesMarkdown":  "- 팝업의 톱니를 누르면 앱이 꺼지던 문제를 고쳤습니다(팝업이 닫히는 중에 한 번 더 닫으려 해 오류가 났음).\n- 화면에서 예기치 않은 오류가 나도 앱이 꺼지지 않고 감시를 이어 갑니다. 오류 내용은 %APPDATA%\\Prahari\\errors.log에 남깁니다.",
                        "NotesHTML":  "\u003cul\u003e\n\u003cli\u003e팝업의 톱니를 누르면 앱이 꺼지던 문제를 고쳤습니다(팝업이 닫히는 중에 한 번 더 닫으려 해 오류가 났음).\u003c/li\u003e\n\u003cli\u003e화면에서 예기치 않은 오류가 나도 앱이 꺼지지 않고 감시를 이어 갑니다. 오류 내용은 %APPDATA%\\Prahari\\errors.log에 남깁니다.\u003c/li\u003e\n\u003c/ul\u003e"
-                   },
-                   {
-                       "PackageId":  "Prahari",
-                       "Version":  "0.1.5",
-                       "Type":  "Delta",
-                       "FileName":  "Prahari-0.1.5-delta.nupkg",
-                       "SHA1":  "6AD20E8D3841CB3E2798BB827CEB48CCC8BFAA3C",
-                       "SHA256":  "FAAFB5883CCB9E61244CC123539D32314B2D01DFEA7FDC92A06202A0CC9A2BFA",
-                       "Size":  157509,
-                       "NotesMarkdown":  "- 저장된 값 초기화 › Slack 연결 뒤 채널이 비어, 토큰을 다시 넣어도 알림이 가지 않던 것을 고쳤습니다. 처음 설치했을 때의 채널(#project-claude)로 돌아갑니다.",
-                       "NotesHTML":  "\u003cul\u003e\n\u003cli\u003e저장된 값 초기화 › Slack 연결 뒤 채널이 비어, 토큰을 다시 넣어도 알림이 가지 않던 것을 고쳤습니다. 처음 설치했을 때의 채널(#project-claude)로 돌아갑니다.\u003c/li\u003e\n\u003c/ul\u003e"
-                   },
-                   {
-                       "PackageId":  "Prahari",
-                       "Version":  "0.1.5",
-                       "Type":  "Full",
-                       "FileName":  "Prahari-0.1.5-full.nupkg",
-                       "SHA1":  "14CFA3ABE56442BFC81FCF1162C4864E55E19533",
-                       "SHA256":  "BD7467561FE23153D971AD99F724CBB7CF1F08523131407E7C2ED649B8BA848F",
-                       "Size":  83102470,
-                       "NotesMarkdown":  "- 저장된 값 초기화 › Slack 연결 뒤 채널이 비어, 토큰을 다시 넣어도 알림이 가지 않던 것을 고쳤습니다. 처음 설치했을 때의 채널(#project-claude)로 돌아갑니다.",
-                       "NotesHTML":  "\u003cul\u003e\n\u003cli\u003e저장된 값 초기화 › Slack 연결 뒤 채널이 비어, 토큰을 다시 넣어도 알림이 가지 않던 것을 고쳤습니다. 처음 설치했을 때의 채널(#project-claude)로 돌아갑니다.\u003c/li\u003e\n\u003c/ul\u003e"
                    }
                ]
 }
