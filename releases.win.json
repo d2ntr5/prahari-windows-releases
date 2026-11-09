@@ -2,6 +2,28 @@
     "Assets":  [
                    {
                        "PackageId":  "Prahari",
+                       "Version":  "0.1.5",
+                       "Type":  "Delta",
+                       "FileName":  "Prahari-0.1.5-delta.nupkg",
+                       "SHA1":  "6AD20E8D3841CB3E2798BB827CEB48CCC8BFAA3C",
+                       "SHA256":  "FAAFB5883CCB9E61244CC123539D32314B2D01DFEA7FDC92A06202A0CC9A2BFA",
+                       "Size":  157509,
+                       "NotesMarkdown":  "- 저장된 값 초기화 › Slack 연결 뒤 채널이 비어, 토큰을 다시 넣어도 알림이 가지 않던 것을 고쳤습니다. 처음 설치했을 때의 채널(#project-claude)로 돌아갑니다.",
+                       "NotesHTML":  "\u003cul\u003e\n\u003cli\u003e저장된 값 초기화 › Slack 연결 뒤 채널이 비어, 토큰을 다시 넣어도 알림이 가지 않던 것을 고쳤습니다. 처음 설치했을 때의 채널(#project-claude)로 돌아갑니다.\u003c/li\u003e\n\u003c/ul\u003e"
+                   },
+                   {
+                       "PackageId":  "Prahari",
+                       "Version":  "0.1.5",
+                       "Type":  "Full",
+                       "FileName":  "Prahari-0.1.5-full.nupkg",
+                       "SHA1":  "14CFA3ABE56442BFC81FCF1162C4864E55E19533",
+                       "SHA256":  "BD7467561FE23153D971AD99F724CBB7CF1F08523131407E7C2ED649B8BA848F",
+                       "Size":  83102470,
+                       "NotesMarkdown":  "- 저장된 값 초기화 › Slack 연결 뒤 채널이 비어, 토큰을 다시 넣어도 알림이 가지 않던 것을 고쳤습니다. 처음 설치했을 때의 채널(#project-claude)로 돌아갑니다.",
+                       "NotesHTML":  "\u003cul\u003e\n\u003cli\u003e저장된 값 초기화 › Slack 연결 뒤 채널이 비어, 토큰을 다시 넣어도 알림이 가지 않던 것을 고쳤습니다. 처음 설치했을 때의 채널(#project-claude)로 돌아갑니다.\u003c/li\u003e\n\u003c/ul\u003e"
+                   },
+                   {
+                       "PackageId":  "Prahari",
                        "Version":  "0.1.4",
                        "Type":  "Delta",
                        "FileName":  "Prahari-0.1.4-delta.nupkg",
@@ -21,28 +43,6 @@
                        "Size":  83103210,
                        "NotesMarkdown":  "- 정전 직후에도 「갑자기 꺼졌다 켜짐」을 알립니다: 상태 기록을 디스크까지 내린 뒤 바꿔 넣고, 바로 전 기록(.bak)을 남겨 본 파일이 깨졌으면 그것으로 판단합니다. 알림 기록 · 설정 · 토큰 파일도 디스크까지 내려 씁니다.\n- 메모리 · CPU · 디스크가 기준 근처에서 오락가락할 때 「회복」과 「다시 높음」이 되풀이되던 것을 고쳤습니다. 알린 이상은 2분 정상이 이어져야 회복으로 보고(맥 Prahari와 같음), 메모리 · CPU는 기준보다 5%p 더 내려와야 풀립니다.\n- 저장된 값 초기화 › Slack 연결을 하면 밀린 알림도 비웁니다(새 채널로 옛 알림이 가지 않게).\n- Tailscale 상태 읽기가 10초 안에 끝나지 않으면 남은 프로세스까지 닫습니다.",
                        "NotesHTML":  "\u003cul\u003e\n\u003cli\u003e정전 직후에도 「갑자기 꺼졌다 켜짐」을 알립니다: 상태 기록을 디스크까지 내린 뒤 바꿔 넣고, 바로 전 기록(.bak)을 남겨 본 파일이 깨졌으면 그것으로 판단합니다. 알림 기록 · 설정 · 토큰 파일도 디스크까지 내려 씁니다.\u003c/li\u003e\n\u003cli\u003e메모리 · CPU · 디스크가 기준 근처에서 오락가락할 때 「회복」과 「다시 높음」이 되풀이되던 것을 고쳤습니다. 알린 이상은 2분 정상이 이어져야 회복으로 보고(맥 Prahari와 같음), 메모리 · CPU는 기준보다 5%p 더 내려와야 풀립니다.\u003c/li\u003e\n\u003cli\u003e저장된 값 초기화 › Slack 연결을 하면 밀린 알림도 비웁니다(새 채널로 옛 알림이 가지 않게).\u003c/li\u003e\n\u003cli\u003eTailscale 상태 읽기가 10초 안에 끝나지 않으면 남은 프로세스까지 닫습니다.\u003c/li\u003e\n\u003c/ul\u003e"
-                   },
-                   {
-                       "PackageId":  "Prahari",
-                       "Version":  "0.1.3",
-                       "Type":  "Delta",
-                       "FileName":  "Prahari-0.1.3-delta.nupkg",
-                       "SHA1":  "90AD806F812EFDB167D6C125BDD154B856D184F9",
-                       "SHA256":  "D1C65A41A0E77674EDE3D6E31B9E1EACF596C3178F867BA48F4BB51728AE79B7",
-                       "Size":  182042,
-                       "NotesMarkdown":  "- Slack 이 잠시 응답하지 않아(5xx 등) 못 보낸 알림이 다음 알림이 생길 때까지 묶여 있던 것을 고쳤습니다. 이제 감시가 돌 때마다(20초) 인터넷이 되면 밀린 알림을 다시 보냅니다(맥 Prahari 와 같음).\n- 설정 창이 기억한 자리가 화면 밖(빠진 모니터 · 모니터 사이 빈 곳 · 오른쪽 끝 너머)이면, 가장 가까운 화면 안에 창 전체가 보이게 엽니다.",
-                       "NotesHTML":  "\u003cul\u003e\n\u003cli\u003eSlack 이 잠시 응답하지 않아(5xx 등) 못 보낸 알림이 다음 알림이 생길 때까지 묶여 있던 것을 고쳤습니다. 이제 감시가 돌 때마다(20초) 인터넷이 되면 밀린 알림을 다시 보냅니다(맥 Prahari 와 같음).\u003c/li\u003e\n\u003cli\u003e설정 창이 기억한 자리가 화면 밖(빠진 모니터 · 모니터 사이 빈 곳 · 오른쪽 끝 너머)이면, 가장 가까운 화면 안에 창 전체가 보이게 엽니다.\u003c/li\u003e\n\u003c/ul\u003e"
-                   },
-                   {
-                       "PackageId":  "Prahari",
-                       "Version":  "0.1.3",
-                       "Type":  "Full",
-                       "FileName":  "Prahari-0.1.3-full.nupkg",
-                       "SHA1":  "DC5E2359ACA64EF80369B40635F2BF5889B8C6BF",
-                       "SHA256":  "DBB247109EF7D06ED4A699422064EB8B8B55B2E900A6F585D648D779AF44E837",
-                       "Size":  83101729,
-                       "NotesMarkdown":  "- Slack 이 잠시 응답하지 않아(5xx 등) 못 보낸 알림이 다음 알림이 생길 때까지 묶여 있던 것을 고쳤습니다. 이제 감시가 돌 때마다(20초) 인터넷이 되면 밀린 알림을 다시 보냅니다(맥 Prahari 와 같음).\n- 설정 창이 기억한 자리가 화면 밖(빠진 모니터 · 모니터 사이 빈 곳 · 오른쪽 끝 너머)이면, 가장 가까운 화면 안에 창 전체가 보이게 엽니다.",
-                       "NotesHTML":  "\u003cul\u003e\n\u003cli\u003eSlack 이 잠시 응답하지 않아(5xx 등) 못 보낸 알림이 다음 알림이 생길 때까지 묶여 있던 것을 고쳤습니다. 이제 감시가 돌 때마다(20초) 인터넷이 되면 밀린 알림을 다시 보냅니다(맥 Prahari 와 같음).\u003c/li\u003e\n\u003cli\u003e설정 창이 기억한 자리가 화면 밖(빠진 모니터 · 모니터 사이 빈 곳 · 오른쪽 끝 너머)이면, 가장 가까운 화면 안에 창 전체가 보이게 엽니다.\u003c/li\u003e\n\u003c/ul\u003e"
                    }
                ]
 }
