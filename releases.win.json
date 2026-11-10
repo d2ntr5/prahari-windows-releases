@@ -2,6 +2,28 @@
     "Assets":  [
                    {
                        "PackageId":  "Prahari",
+                       "Version":  "0.1.8",
+                       "Type":  "Delta",
+                       "FileName":  "Prahari-0.1.8-delta.nupkg",
+                       "SHA1":  "7A5B0F77EDDD5023B1B936A23F7D4988D390EA22",
+                       "SHA256":  "859FCAA7870DEE16473D2F69D802E6E7F6BAF56F7B08413B5619505809743E6D",
+                       "Size":  231177,
+                       "NotesMarkdown":  "- 새로: 🗄 NAS 연결 알림 — 같은 PC의 Setu(NAS 자동 연결)가 남기는 상태 파일을 읽어, NAS가 오래 연결되지 않으면 「NAS 연결 끊김 N분째」, 다시 연결되면 「다시 연결됨 · 끊긴 시간」을 Slack으로 보냅니다(맥 Prahari와 같은 방식 · 문구). 몇 분 · 알릴지는 Setu 설정 › 알림을 따르고, 집 밖일 때는 보내지 않습니다. Setu가 실행 중인데 멈춘 것 같으면 한 번 알립니다. 설정 › 알림에서 켜고 끕니다.\n- 새로: 팝업 「지금 상태」에 NAS 줄(연결 N/M · 끊긴 NAS) — Setu가 있을 때만. 하루 요약에도 NAS 연결 줄.",
+                       "NotesHTML":  "\u003cul\u003e\n\u003cli\u003e새로: 🗄 NAS 연결 알림 — 같은 PC의 Setu(NAS 자동 연결)가 남기는 상태 파일을 읽어, NAS가 오래 연결되지 않으면 「NAS 연결 끊김 N분째」, 다시 연결되면 「다시 연결됨 · 끊긴 시간」을 Slack으로 보냅니다(맥 Prahari와 같은 방식 · 문구). 몇 분 · 알릴지는 Setu 설정 › 알림을 따르고, 집 밖일 때는 보내지 않습니다. Setu가 실행 중인데 멈춘 것 같으면 한 번 알립니다. 설정 › 알림에서 켜고 끕니다.\u003c/li\u003e\n\u003cli\u003e새로: 팝업 「지금 상태」에 NAS 줄(연결 N/M · 끊긴 NAS) — Setu가 있을 때만. 하루 요약에도 NAS 연결 줄.\u003c/li\u003e\n\u003c/ul\u003e"
+                   },
+                   {
+                       "PackageId":  "Prahari",
+                       "Version":  "0.1.8",
+                       "Type":  "Full",
+                       "FileName":  "Prahari-0.1.8-full.nupkg",
+                       "SHA1":  "DB591A3A0A9AF2F4719469645AFE8C94BFE0C960",
+                       "SHA256":  "19F7F31F572414BDBF83BA6975659F28675A3A4A8FEFDF5B734FD592BE250D9C",
+                       "Size":  83116686,
+                       "NotesMarkdown":  "- 새로: 🗄 NAS 연결 알림 — 같은 PC의 Setu(NAS 자동 연결)가 남기는 상태 파일을 읽어, NAS가 오래 연결되지 않으면 「NAS 연결 끊김 N분째」, 다시 연결되면 「다시 연결됨 · 끊긴 시간」을 Slack으로 보냅니다(맥 Prahari와 같은 방식 · 문구). 몇 분 · 알릴지는 Setu 설정 › 알림을 따르고, 집 밖일 때는 보내지 않습니다. Setu가 실행 중인데 멈춘 것 같으면 한 번 알립니다. 설정 › 알림에서 켜고 끕니다.\n- 새로: 팝업 「지금 상태」에 NAS 줄(연결 N/M · 끊긴 NAS) — Setu가 있을 때만. 하루 요약에도 NAS 연결 줄.",
+                       "NotesHTML":  "\u003cul\u003e\n\u003cli\u003e새로: 🗄 NAS 연결 알림 — 같은 PC의 Setu(NAS 자동 연결)가 남기는 상태 파일을 읽어, NAS가 오래 연결되지 않으면 「NAS 연결 끊김 N분째」, 다시 연결되면 「다시 연결됨 · 끊긴 시간」을 Slack으로 보냅니다(맥 Prahari와 같은 방식 · 문구). 몇 분 · 알릴지는 Setu 설정 › 알림을 따르고, 집 밖일 때는 보내지 않습니다. Setu가 실행 중인데 멈춘 것 같으면 한 번 알립니다. 설정 › 알림에서 켜고 끕니다.\u003c/li\u003e\n\u003cli\u003e새로: 팝업 「지금 상태」에 NAS 줄(연결 N/M · 끊긴 NAS) — Setu가 있을 때만. 하루 요약에도 NAS 연결 줄.\u003c/li\u003e\n\u003c/ul\u003e"
+                   },
+                   {
+                       "PackageId":  "Prahari",
                        "Version":  "0.1.7",
                        "Type":  "Delta",
                        "FileName":  "Prahari-0.1.7-delta.nupkg",
@@ -21,28 +43,6 @@
                        "Size":  83106805,
                        "NotesMarkdown":  "- 글씨 크기가 4단계가 됐습니다: 작게 · 보통 · 크게 · 아주 크게(설정 › 일반 › 화면). 글씨와 함께 단추 · 여백 · 설정 창 · 팝업 크기도 같이 커집니다. Ctrl+= 크게 · Ctrl+- 작게 · Ctrl+0 보통. 전에 고른 크기는 가장 가까운 단계로 옮깁니다.\n- 화면 표준에 맞춰 글씨 크기를 자리별로 통일하고(가장 작은 글씨 11), 글꼴을 Segoe UI · 맑은 고딕으로 바꿨습니다.\n- 밝은 모드 색: 창 바탕은 시스템 창 색, 상자는 흰색 + 옅은 구분선, 고른 항목은 회색 홈 안 흰 알약으로 표시합니다.\n- 설정 › 일반의 「모양」을 「화면 모드」로 이름을 바꿨습니다.",
                        "NotesHTML":  "\u003cul\u003e\n\u003cli\u003e글씨 크기가 4단계가 됐습니다: 작게 · 보통 · 크게 · 아주 크게(설정 › 일반 › 화면). 글씨와 함께 단추 · 여백 · 설정 창 · 팝업 크기도 같이 커집니다. Ctrl+= 크게 · Ctrl+- 작게 · Ctrl+0 보통. 전에 고른 크기는 가장 가까운 단계로 옮깁니다.\u003c/li\u003e\n\u003cli\u003e화면 표준에 맞춰 글씨 크기를 자리별로 통일하고(가장 작은 글씨 11), 글꼴을 Segoe UI · 맑은 고딕으로 바꿨습니다.\u003c/li\u003e\n\u003cli\u003e밝은 모드 색: 창 바탕은 시스템 창 색, 상자는 흰색 + 옅은 구분선, 고른 항목은 회색 홈 안 흰 알약으로 표시합니다.\u003c/li\u003e\n\u003cli\u003e설정 › 일반의 「모양」을 「화면 모드」로 이름을 바꿨습니다.\u003c/li\u003e\n\u003c/ul\u003e"
-                   },
-                   {
-                       "PackageId":  "Prahari",
-                       "Version":  "0.1.6",
-                       "Type":  "Delta",
-                       "FileName":  "Prahari-0.1.6-delta.nupkg",
-                       "SHA1":  "801AB8183B83A3FE15A7DBA6096029E4B87CB46D",
-                       "SHA256":  "1AB28C76A7B35214F04BDEA24C451FCE28921BF4372BADD05EE3D3CF83FD531B",
-                       "Size":  197328,
-                       "NotesMarkdown":  "- 팝업의 톱니를 누르면 앱이 꺼지던 문제를 고쳤습니다(팝업이 닫히는 중에 한 번 더 닫으려 해 오류가 났음).\n- 화면에서 예기치 않은 오류가 나도 앱이 꺼지지 않고 감시를 이어 갑니다. 오류 내용은 %APPDATA%\\Prahari\\errors.log에 남깁니다.",
-                       "NotesHTML":  "\u003cul\u003e\n\u003cli\u003e팝업의 톱니를 누르면 앱이 꺼지던 문제를 고쳤습니다(팝업이 닫히는 중에 한 번 더 닫으려 해 오류가 났음).\u003c/li\u003e\n\u003cli\u003e화면에서 예기치 않은 오류가 나도 앱이 꺼지지 않고 감시를 이어 갑니다. 오류 내용은 %APPDATA%\\Prahari\\errors.log에 남깁니다.\u003c/li\u003e\n\u003c/ul\u003e"
-                   },
-                   {
-                       "PackageId":  "Prahari",
-                       "Version":  "0.1.6",
-                       "Type":  "Full",
-                       "FileName":  "Prahari-0.1.6-full.nupkg",
-                       "SHA1":  "F4AF494E599F55182C9A1FF3FD067A217BEC1E88",
-                       "SHA256":  "511F19817F58554EAC14AE4AD3626C4927BC9BBA4538DFC90E120648C11476CA",
-                       "Size":  83103920,
-                       "NotesMarkdown":  "- 팝업의 톱니를 누르면 앱이 꺼지던 문제를 고쳤습니다(팝업이 닫히는 중에 한 번 더 닫으려 해 오류가 났음).\n- 화면에서 예기치 않은 오류가 나도 앱이 꺼지지 않고 감시를 이어 갑니다. 오류 내용은 %APPDATA%\\Prahari\\errors.log에 남깁니다.",
-                       "NotesHTML":  "\u003cul\u003e\n\u003cli\u003e팝업의 톱니를 누르면 앱이 꺼지던 문제를 고쳤습니다(팝업이 닫히는 중에 한 번 더 닫으려 해 오류가 났음).\u003c/li\u003e\n\u003cli\u003e화면에서 예기치 않은 오류가 나도 앱이 꺼지지 않고 감시를 이어 갑니다. 오류 내용은 %APPDATA%\\Prahari\\errors.log에 남깁니다.\u003c/li\u003e\n\u003c/ul\u003e"
                    }
                ]
 }
